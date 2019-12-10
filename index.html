@@ -16,19 +16,18 @@ body {font-family: "Open Sans"}
 
 <!-- Navigation bar with social media icons -->
 <div class="w3-bar w3-black w3-hide-small">
-  <a href="#" class="w3-bar-item w3-button">YETI</a>
-  <a href="#" class="w3-bar-item w3-button">HOME</a>
-  <a href="#" class="w3-bar-item w3-button">ABOUT</a>
-  <a href="#" class="w3-bar-item w3-button">SHOP NOW</a>
-  <a href="#" class="w3-bar-item w3-button">CONTACT</a>
+  <a href="#home" class="w3-bar-item w3-button">YETI</a>
+  <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#shopnow" class="w3-bar-item w3-button">SHOP NOW</a>
+  <a href="#contanct" class="w3-bar-item w3-button">CONTACT</a>
 </div>
   
 <!-- w3-content defines a container for fixed size centered content, 
 and is wrapped around the whole page content, except for the footer in this example -->
-<div class="w3-content" style="max-width:1600px">
+<div id="home" class="w3-content" style="max-width:1600px">
 
   <!-- Header -->
-  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <header class="w3-container w3-center w3-padding-48 w3-white">
     <h1 class="w3-xxxlarge"><b>YETI</b></h1>
     <h6>Welcome to the LIFE of <span class="w3-tag">YETI</span></h6>
   </header>
@@ -44,12 +43,17 @@ and is wrapped around the whole page content, except for the footer in this exam
   </header>
     
     <!-- ABOUT US -->
-  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+  <div id="about" class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
     <h2 class="w3-wide">ABOUT US</h2>
     <p class="w3-opacity"><i>We love Yeti </i></p>
     <p class="w3-justify">Growing up, my brother and I always had a passion for the outdoors. Hunting, fishing, traveling to outdoor industry trade shows with our teacher-turned-entrepreneur-father. We were raised with an appreciation for wild game, unfamiliar territory, and high-quality gear. But the coolers available at the time just weren’t up to our outdoor adventures – the handles would break, the latches would snap off, and the lids would cave in. Not only was it a hassle to replace our coolers after each season, but also these cheaply built, ordinary ice chests were limiting our good times. And that frustration led us to a solution. In 2006, we founded YETI Coolers with a simple mission: build the cooler we’d use every day if it existed. One that was built for the serious outdoor enthusiast rather than for the mass-discount retailers. One that could take the abuse we knew we’d put it through out in the field and on the water. One that simply wouldn’t break. We decided early on that product innovation would come from necessity and firsthand experience – not from market research and data analysis. Today, YETI products perform when it matters most - whether that be an excursion into the remote Alaskan wilderness, chasing redfish on the Gulf coast, or just getting together with friends in the backyard.</p>
 
+<<<<<<< HEAD
 <HEAD>
+=======
+ <div id="shopnow" class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">SHOP NOW</h2>
+>>>>>>> 94b368b11bf76569758dcb6c7acf965c00608b4e
  <!-- Image header -->
   <div class="w3-display-container w3-container">
     <img src="/img/190747-Category-Header-Drinkware-Mobile-750x400.jpg" alt="Jeans" style="width:100%">
@@ -123,6 +127,77 @@ and is wrapped around the whole page content, except for the footer in this exam
       </div>
     </div>
   </div>
+     <!-- Product grid -->
+  <div class="w3-row w3-grayscale">
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="/img/USC.png" style="width:100%">
+        <p>UNIVERSITY OF SOUTH CAROLINA<br><b>$39.99</b></p>
+      </div>
+      <div class="w3-container">
+        <img src="/img/BU.png" style="width:100%">
+        <p>BOSTON UNIVERSITY<br><b>$39.99</b></p>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <div class="w3-display-container">
+          <img src="/img/TULANE.png" style="width:100%">
+          <span class="w3-tag w3-display-topleft">New</span>
+          <div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <p>TULANE<br><b>$39.99</b></p>
+      </div>
+      <div class="w3-container">
+        <img src="/img/FLORIDA.png" style="width:100%">
+        <p>FLORIDA<br><b>$39.99</b></p>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="/img/TEXASTECH.png" style="width:100%">
+        <p>TEXAS TECH<br><b>$39.99</b></p>
+      </div>
+      <div class="w3-container">
+        <div class="w3-display-container">
+          <img src="/img/VIRGINIATECH.png" style="width:100%">
+          <span class="w3-tag w3-display-topleft">Sale</span>
+          <div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <p>VIRGINIA TECH<br><b class="w3-text-red">$34.99</b></p>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="/img/washington.png" style="width:100%">
+        <p>OREGON<br><b>$39.99</b></p>
+      </div>
+      <div class="w3-container">
+        <img src="/img/BC.png" style="width:100%">
+        <p>BOSTON COLLEGE<br><b>$39.99</b></p>
+      </div>
+    </div>
+  </div>
+    
+     <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
 
 
     
